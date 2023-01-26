@@ -1,0 +1,34 @@
+Armen Merzaian
+BTP305
+Miguel Watler
+December 06, 2021
+Project MS3 Reflection
+
+For the final project we created a simulated factory setting, where stations exist
+on an assembly line. Stations are provided as a txt file that needs to be parsed, which provides
+information about the station: the name of the product produced, the serial number, quanitity at hand,
+and its description. Customer orders also need to be parsed.
+
+Throughout the project we worked heavily with static and dynamic memory, with arrays, lists, and vectors,
+and we were also required to implement STL algorithms and lamda expressions.
+
+The project was quite difficult, and required lots of additional reading of documentation.
+
+Most of the trouble I ran into throughout the first two milestones included memory management.
+Due to the nature of the assignment, there was plenty of dynamically allocated memory that had to be copied,
+moved, deleted and accessed. When the project is smaller, and less modules are attemping to access data,
+or when you are able to inherit permissions easier this becomes less of a hassle, however in this project
+we weren't explicitly instructed to use smart pointers, which left me with having to accept that my 
+code was not optimized enough to prevent memory leaks (as seen in MS2).
+
+The most frustrating part of this assignment was dealing with the ouputs in MS3. Despite attempting to rewrite
+multiple methods in the LineManager class as well as the Workstations class, I failed to meet the requirments
+of the assignment, and failed to meet the deadline.
+
+If I had more time, I would probably start the entire project all over again. With all the time I spent debugging
+I became quite intimate with the project, and having that insight earlier in my production might have helped me design
+certain methods to serve me better in the future, rather than for the test particular to that Milestone.
+
+Nonetheless, I learned a lot from this assignment, regardless of my success in it.
+
+
